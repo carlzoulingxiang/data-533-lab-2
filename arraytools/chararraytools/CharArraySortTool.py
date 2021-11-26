@@ -1,0 +1,45 @@
+"""
+Character array sorting tool
+
+@Author: Nelson Tang
+@Date: Nov 25, 2021
+"""
+import random
+
+
+from arraytools.chararraytools.CharArrayTools import CharArrayTools
+
+
+class CharArraySortTool(CharArrayTools):
+    def __init__(self, arr, sorted = False):
+        CharArrayTools.__init__(self, arr)
+        self.sorted = sorted
+
+    def sort_asc(self):
+        """
+        Sort the character array in ascending alphabetical order by implementing a bubble sort.
+        :return:
+        """
+        n = len(self.arr)
+        for i in range(n):
+            for j in range(n-i-1):
+                if self.arr[j] > self.arr[j+1]:
+                    self.arr[j], self.arr[j+1] =  self.arr[j+1], self.arr[j]
+        self.sorted = True
+
+    def sort_desc(self):
+        self.sort_asc()
+        self.arr = self.arr[len(self.arr)::-1]
+        self.sorted = True
+
+    def unsorting(self):
+        if self.sorted:
+            random.shuffle(self.arr)
+        self.sorted = False
+
+
+
+
+
+
+
