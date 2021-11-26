@@ -4,6 +4,8 @@ from arraytools.chararraytools import CharArraySortTool as casort
 if __name__ == '__main__':
     myArr = ['e', 'a', 'd', 'c', 'b']
     charTool = cast.CharArraySearchTool(myArr)
+    charTool.append('f')
+
     max = charTool.search_max()
     print(max)
     min = charTool.search_min()
@@ -18,6 +20,9 @@ if __name__ == '__main__':
     print(sortTool.arr)
     sortTool.unsorting()
     print(sortTool.arr)
+
+    sortTool.check_empty()
+
 
 
 

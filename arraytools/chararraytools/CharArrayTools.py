@@ -43,6 +43,6 @@ class CharArrayTools(object):
 
         :param element: a character
         """
-        self.arr = self.arr.append(element)
+        self.arr.append(element)
 
 
