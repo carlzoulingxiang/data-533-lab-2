@@ -11,7 +11,7 @@ from arraytools.chararraytools.CharArrayTools import CharArrayTools
 
 
 class CharArraySortTool(CharArrayTools):
-    def __init__(self, arr, sorted = False):
+    def __init__(self, arr, sorted=False):
         CharArrayTools.__init__(self, arr)
         self.sorted = sorted
 
@@ -28,11 +28,19 @@ class CharArraySortTool(CharArrayTools):
         self.sorted = True
 
     def sort_desc(self):
+        """
+        Sort the character array in descending alphabetical order.
+        :return:
+        """
         self.sort_asc()
         self.arr = self.arr[len(self.arr)::-1]
         self.sorted = True
 
-    def unsorting(self):
+    def unsort(self):
+        """
+        Make a sorted array to unsorted.
+        :return:
+        """
         if self.sorted:
             random.shuffle(self.arr)
         self.sorted = False

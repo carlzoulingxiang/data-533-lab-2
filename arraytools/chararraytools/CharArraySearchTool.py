@@ -17,24 +17,14 @@ class CharArraySearchTool(CharArrayTools):
     def search_max(self):
         return max(self.arr)
 
-    def search_key(self, key):
+    def search_key(self, target):
         """
-        Search a character in the array by implementing a binary search
-        :param key: a character
-        :return: The index of the target, if not found return -1.
+        Search a character in the array by implementing a linear search
+        :param target: a character
+        :return:  The index of the target, if not found return -1.
         """
-
-        left = 0
-        right = len(self.arr)
-        while left <= right:
-            mid = left + ((right - left) // 2)
-            res = (key == self.arr[mid])
-            if res == 0:
-                return mid - 1
-            if res > 0:
-                left = mid + 1
-            else:
-                right = mid - 1
+        for i in range(0, len(self.arr)):
+            if self.arr[i] == target:
+                return i
         return -1
-
 
