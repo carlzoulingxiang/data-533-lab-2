@@ -1,10 +1,3 @@
-"""
-Number Array Tools
-
-@Author: Ling Xiang Zou
-@Date: Nov 25, 2021
-"""
-
 class NumArrayTools:
     def __init__(self, arr):
         self.arr = arr
@@ -24,7 +17,7 @@ class NumArrayTools:
         else:
             return False
     
-    def append(self, x):
+    def appendArr(self, x):
         if isinstance(x, int):
             self.arr.append(x)
         else:
