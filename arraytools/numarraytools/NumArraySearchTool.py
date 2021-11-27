@@ -22,5 +22,5 @@ class NumArraySearchTool(NumArrayTools):
         for i in range(len(self.arr)):
             if target == self.arr[i]:
                 return i
-        return "Not found"
+        return -1
     
