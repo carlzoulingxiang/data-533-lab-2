@@ -9,8 +9,6 @@ class NumArrayTools:
     def __init__(self, arr):
         self.arr = arr
 
-    def printArr(self):
-        print(self.arr)
 
     def isnumerial(self):
         for i in self.arr:
