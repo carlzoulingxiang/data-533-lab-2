@@ -1,9 +1,3 @@
-"""
-Number array sorting tool
-
-@Author: Ling Xiang Zou
-@Date: Nov 25, 2021
-"""
 import random
 from arraytools.numarraytools.NumArrayTools import NumArrayTools
 class NumArraySortTool(NumArrayTools):
@@ -15,11 +9,13 @@ class NumArraySortTool(NumArrayTools):
 
     def AscendingSort(self):
         self.arr.sort()
-
+        self.printArr()
 
     
     def DescendingSort(self):
         self.arr.sort(reverse=True)
-
+        self.printArr()
+    
     def Unsort(self):
         self.arr = random.sample(self.arr,len(self.arr))
+        self.printArr()

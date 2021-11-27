@@ -1,11 +1,4 @@
-"""
-Number Array searching tool
-
-@Author: Ling Xiang Zou
-@Date: Nov 25, 2021
-"""
 from arraytools.numarraytools.NumArrayTools import NumArrayTools
-
 class NumArraySearchTool(NumArrayTools):
     def __init__(self, arr):
         NumArrayTools.__init__(self,arr)
