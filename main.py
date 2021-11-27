@@ -87,19 +87,19 @@ if __name__ == '__main__':
 """
 The following are the outputs of the above test code:
 
-All elements in the array are character!
-All elements in the array are character!
-Character Sort Tool containing an non-empty array!
-Character Search Tool containing an non-empty array!
+All elements in the sort tool array are character!
+All elements in the search tool array are character!
+Character Sort Tool array containing an non-empty array!
+Character Search Tool array containing an non-empty array!
 Sort tool array:  ['e', 'a', 'd', 'c', 'b', 'f']
 Search tool array:  ['e', 'a', 'd', 'c', 'b', 't']
 The max character in Search tool array is:  t
 The min character in Search tool array is:  a
-The index of target in this array is:  3
-Array is unsorted!
-The ascending sorted array is:  ['a', 'b', 'c', 'd', 'e', 'f']
-The descending sorted array is:  ['f', 'e', 'd', 'c', 'b', 'a']
-The unsorted array is:  ['f', 'a', 'e', 'c', 'b', 'd']
+The index of target in search tool array is:  3
+sort tool array is unsorted!
+The ascending sort tool array is:  ['a', 'b', 'c', 'd', 'e', 'f']
+The descending sort tool array is:  ['f', 'e', 'd', 'c', 'b', 'a']
+The unsorted sort tool array is:  ['a', 'e', 'f', 'c', 'd', 'b']
 """
 
 
@@ -184,8 +184,8 @@ if __name__ == '__main__':
 """
 The following are the outputs of the above test code:
 
-All elements in the array are integers!
-All elements in the array are integers!
+All elements in the sort tool array are integers!
+All elements in the search tool array are integers!
 number Sort Tool containing an non-empty array!
 number Search Tool containing an non-empty array!
 Sort tool array:  [2, 3, 6, 1, 9, 4, 10]
@@ -194,9 +194,9 @@ The max integer in Search tool array is:  11
 The min integer in Search tool array is:  1
 Sort tool array:  [2, 3, 6, 1, 9, 4, 10]
 Search tool array:  [2, 3, 6, 1, 9, 4, 11]
-The index of target in this array is:  2
-Array is unsorted!
-The ascending sorted array is:  [1, 2, 3, 4, 6, 9, 10]
-The descending sorted array is:  [10, 9, 6, 4, 3, 2, 1]
-The unsorted array is:  [6, 2, 3, 9, 4, 1, 10]
+The index of target in search tool array is:  2
+sort tool array is unsorted!
+The ascending sort tool array is:  [1, 2, 3, 4, 6, 9, 10]
+The descending sort tool array is:  [10, 9, 6, 4, 3, 2, 1]
+The unsorted sort tool array is:  [6, 1, 2, 10, 9, 4, 3]
 """
