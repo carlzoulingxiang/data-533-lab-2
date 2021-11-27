@@ -12,7 +12,7 @@ class CharArrayTools(object):
         self.arr = arr
 
     def __str__(self):
-        return self.arr
+        return str(self.arr)
 
     def __instancecheck__(self):
         """
@@ -23,7 +23,7 @@ class CharArrayTools(object):
                 False: there at least one element is not character
         """
         for e in self.arr:
-            if not isinstance(e, chr):
+            if not isinstance(e, str):
                 return False
         return True
 
