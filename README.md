@@ -6,14 +6,6 @@ In this lab, we aim to create a package called arraytools for searching and sort
 
 The following are the structure and the function details of arraytools:
 
-# Data533 Lab 2
-- Students: Ling Xiang Zou (60038213), Tang Ao (64277791)
-- Date: Nov 26, 2021
-
-In this lab, we aim to create a package called arraytools for searching and sorting arrays of characters and numbers.
-
-The following are the structure and the function details of arraytools:
-
 - **arraytools**
   - **chararraytools**: Handle character arrays
     - **CharArrayTools.py**
