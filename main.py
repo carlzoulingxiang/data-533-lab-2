@@ -5,10 +5,10 @@ This is Sample Test Code For arraytools Package
 @Date: Nov 25, 2021
 """
 
-from arraytools.chararraytools import CharArraySearchTool as csearch
-from arraytools.chararraytools import CharArraySortTool as csort
-from arraytools.numarraytools import NumArraySearchTool as numst
-from arraytools.numarraytools import NumArraySortTool as numsort
+from arraytools.chararraytools import chararraysearchtool as csearch
+from arraytools.chararraytools import chararraysorttool as csort
+from arraytools.numarraytools import numarraysearchtool as numst
+from arraytools.numarraytools import numarraysorttool as numsort
 
 if __name__ == '__main__':
 
