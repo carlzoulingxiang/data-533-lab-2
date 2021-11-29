@@ -5,7 +5,7 @@ Number array sorting tool
 @Date: Nov 25, 2021
 """
 import random
-from arraytools.numarraytools.NumArrayTools import NumArrayTools
+from arraytools.numarraytools.numarraytools import NumArrayTools
 class NumArraySortTool(NumArrayTools):
     def __init__(self, arr):
         NumArrayTools.__init__(self,arr)

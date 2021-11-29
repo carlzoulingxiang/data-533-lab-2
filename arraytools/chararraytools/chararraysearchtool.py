@@ -4,7 +4,7 @@ Character Array searching tool
 @Author: Nelson Tang
 @Date: Nov 25, 2021
 """
-from arraytools.chararraytools.CharArrayTools import CharArrayTools
+from arraytools.chararraytools.chararraytools import CharArrayTools
 
 
 class CharArraySearchTool(CharArrayTools):

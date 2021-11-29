@@ -7,7 +7,7 @@ Character array sorting tool
 import random
 
 
-from arraytools.chararraytools.CharArrayTools import CharArrayTools
+from arraytools.chararraytools.chararraytools import CharArrayTools
 
 
 class CharArraySortTool(CharArrayTools):
